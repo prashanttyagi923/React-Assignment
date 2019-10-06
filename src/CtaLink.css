@@ -1,0 +1,23 @@
+.cta-link{
+    min-width: 35px;
+    min-height: 17px;
+    text-align: left;
+    font: Bold 12px/18px Open Sans;
+    letter-spacing: 0;
+    color: #B52026;
+    opacity: 1;
+    text-decoration: none;
+    padding: 20px;
+}
+.cta-link-arrow{
+    padding: 5px;
+}
+.cta-link-text:hover{
+    text-decoration: underline;
+}
+.cta-link-text:active{
+    text-decoration: underline;
+}
+.cta-link:disabled{
+    color: #C0C0C0;
+}
