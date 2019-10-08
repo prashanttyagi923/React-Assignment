@@ -21,3 +21,6 @@
 .cta-link:disabled{
     color: #C0C0C0;
 }
+.no-padding{
+    padding: 0px !important;
+}

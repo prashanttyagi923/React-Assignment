@@ -10,30 +10,32 @@ function Screen(props){
 
 return(
 <div>
+    <div className="block right-block"></div>
+    <div className="block left-block"></div>
     <div className="screen-container">
-        <CardViewProduct  imageSrc={SoftyImage} imageClass={obj.fullHeightImage}
+        <CardViewProduct  imageSrc={SoftyImage} imageClass="fit-image"
         headerText="Vestibulum" paragraphText="Mauris imperdiet orci dapibus, commodo libero nec, interib"
-        linkText="Link" largeText="$8.99"
+        linkText="Link" largeText="8.99"
         />
-        <CardViewProduct  imageSrc={PizzaImage} imageClass={obj.fullSizeImage}
+        <CardViewProduct  imageSrc={PizzaImage} imageClass="fit-image"
         headerText="Aenean sed nibh a magna posuere ..." paragraphText="Duis rhoncus dui venenatis consequat porttitor."
-        linkText="Link" largeText="$4.99"
+        linkText="Link" largeText="4.99"
         />
-        <CardViewProduct  imageSrc={SaladImage} imageClass={obj.fullWidthImage}
+        <CardViewProduct  imageSrc={SaladImage} imageClass="fit-image"
         headerText="Vestibulum comm" paragraphText="Mauris imperdiet orci dapibus, commodo libero nec, interib ..."
-        linkText="Link" largeText="$6.99"
+        linkText="Link" largeText="6.99"
         />
-        <CardViewProduct  imageSrc={PizzaImage} imageClass={obj.fullSizeImage}
+        <CardViewProduct  imageSrc={PizzaImage} imageClass="fit-image"
         headerText="Vestibulum" paragraphText="Mauris imperdiet orci dapibus, commodo libero nec, interib"
         linkText="Link" largeText="$8.99"
         />
         
-        <CardViewProduct  imageSrc={SoftyImage} imageClass={obj.fullHeightImage}
+        <CardViewProduct  imageSrc={SoftyImage} imageClass="fit-image"
         headerText="Vestibulum" paragraphText="Mauris imperdiet orci dapibus, commodo libero nec, interib"
         linkText="Link" largeText="$8.99"
         />
         
-        <CardViewProduct  imageSrc={SoftyImage} imageClass={obj.fullHeightImage}
+        <CardViewProduct  imageSrc={SoftyImage} imageClass="fit-image"
         headerText="Vestibulum" paragraphText="Mauris imperdiet orci dapibus, commodo libero nec, interib"
         linkText="Link" largeText="$8.99"
         />

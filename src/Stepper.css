@@ -8,15 +8,17 @@
     align-content: center;
     align-self: center;
     display: inline-flex;
+    user-select: none;
+    box-sizing: border-box;
 }
 .stepper-btn:hover{
     border: 1px solid #B52026;
 }
 .stepper-btn:active{
-    opacity: 70%;
+    opacity: 0.7;
 }
 .stepper-btn:disabled{
-    opacity: 70%;
+    opacity: 0.25;
 }
 .stepper-txt{
 text-align: center;
@@ -25,6 +27,9 @@ font: Bold 14px/20px Open Sans;
 letter-spacing: 0;
 color: #202020;
 opacity: 1;
+min-width: 20px;
+text-align: center;
+display: inline-block;
 }
 .stepper-btn-img{
 width: 10px;

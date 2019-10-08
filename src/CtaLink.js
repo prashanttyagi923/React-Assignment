@@ -3,7 +3,7 @@ import React from 'react';
 function CtaLink(props){
 
     return(
-        <a href={props.link} className="cta-link">
+        <a href={props.link} className={props.className +  " cta-link"}>
         <span className="cta-link-text" >
 
         {props.text} 

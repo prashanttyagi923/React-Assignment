@@ -2,4 +2,20 @@
     display: flex;
     flex-wrap: wrap;
     margin: 30px;
+    margin-top: 0px;
 }
+.block{
+    width: 219px;
+    height: 995px;
+    background: #362D2D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: static;
+ 
+}
+.left-block{
+    float: left;
+}
+.right-block{
+    float: right;
+}
+
