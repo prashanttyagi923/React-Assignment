@@ -7,7 +7,7 @@ import config from './config';
 import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
  
 function CardViewProduct(props){
-const count = 0;
+
     const getWords = (str, len) => {
         let strLength = str.length;
         let retValue =  str.split(/\s+/).slice(0,len).join(" ");
@@ -22,7 +22,7 @@ const count = 0;
     return(
         <div className="card-view">
             <div className="image-view">
-                <img src={props.imageSrc} className="fit-image" />
+                <img src={props.imageSrc} className="fit-image" alt="Logo"/>
             </div>
             <div className="card-content">
             <div className="inline-container">

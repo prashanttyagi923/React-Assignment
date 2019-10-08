@@ -3,6 +3,8 @@
     flex-wrap: wrap;
     margin: 30px;
     margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .block{
     width: 219px;
