@@ -1,44 +1,53 @@
 import CardViewProduct from '../CardViewProduct'
 import React from 'react';
-import PizzaImage from '../assets/Image 96.png'
-import SoftyImage from '../assets/Image 97.png'
-import SaladImage from '../assets/Image 100.png'
 import obj from '../config';
 import './Screen.css'
+import data from '../data/cartData.json'
+import currencyData from '../data/currency.json'
+
 function Screen(props){
 
-
+console.log(data);
+const getCart = ()=> {
+    return data.map(item => {
+      return(<CardViewProduct key={item.id}  imageSrc={process.env.PUBLIC_URL + "/" +item.image}
+        headerText={item.productName} paragraphText={item.description}
+        linkText="Link" largeText={item.price} currency={currencyData[item.currency]}
+        />)
+    })
+    
+    //return(<span />)
+     }
+ 
 return(
 <div>
     <div className="block right-block"></div>
     <div className="block left-block"></div>
     <div className="screen-container">
-        <CardViewProduct  imageSrc={SoftyImage} imageClass="fit-image"
-        headerText="Vestibulum" paragraphText="Mauris imperdiet orci dapibus, commodo libero nec, interib"
-        linkText="Link" largeText="8.99"
-        />
-        <CardViewProduct  imageSrc={PizzaImage} imageClass="fit-image"
+     {getCart()}   
+        
+        {/* <CardViewProduct  imageSrc={PizzaImage}
         headerText="Aenean sed nibh a magna posuere ..." paragraphText="Duis rhoncus dui venenatis consequat porttitor."
         linkText="Link" largeText="4.99"
         />
-        <CardViewProduct  imageSrc={SaladImage} imageClass="fit-image"
+        <CardViewProduct  imageSrc={SaladImage} 
         headerText="Vestibulum comm" paragraphText="Mauris imperdiet orci dapibus, commodo libero nec, interib ..."
         linkText="Link" largeText="6.99"
         />
-        <CardViewProduct  imageSrc={PizzaImage} imageClass="fit-image"
+        <CardViewProduct  imageSrc={PizzaImage} 
         headerText="Vestibulum" paragraphText="Mauris imperdiet orci dapibus, commodo libero nec, interib"
         linkText="Link" largeText="$8.99"
         />
         
-        <CardViewProduct  imageSrc={SoftyImage} imageClass="fit-image"
+        <CardViewProduct  imageSrc={SoftyImage} 
         headerText="Vestibulum" paragraphText="Mauris imperdiet orci dapibus, commodo libero nec, interib"
         linkText="Link" largeText="$8.99"
         />
         
-        <CardViewProduct  imageSrc={SoftyImage} imageClass="fit-image"
+        <CardViewProduct  imageSrc={SoftyImage} 
         headerText="Vestibulum" paragraphText="Mauris imperdiet orci dapibus, commodo libero nec, interib"
         linkText="Link" largeText="$8.99"
-        />
+        /> */}
     </div>
 </div>
 );

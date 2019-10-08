@@ -10,7 +10,7 @@ function Stepper(props){
 
  
  const statement  = () => {
-    if(count == 0){
+    if(count === 0){
        return(<span className={props.className} onClick={() => setCount(count + 1 )}><CTA text="Add" /> </span>)
     }
     else{

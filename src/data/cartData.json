@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "productName" : "Vestibulum",
+        "description" : "Mauris imperdiet orci dapibus, commodo libero nec, interib",
+        "price": 8.99,
+        "currency": "usd",
+        "image": "Image 100.png"
+    },
+    {
+        "id": 2,
+        "productName": "Aenean sed nibh a magna posuere tempor. Nunc faucibus pellentesque nunc in aliquet. Donec congue, nunc vel tempor congue, enim sapien lobortis ipsum, in volutpat sem ex in ligula. Nunc purus est, consequat condimentum faucibus sed, iaculis sit amet massa. Fusce ac condimentum turpis. Ut consequat lacinia augue, vitae aliquam sapien ullamcorper at. Donec efficitur, ligula ut lacinia viverra, lorem lacus condimentum leo, eu luctus dolor ex at quam. Fusce a nisi at erat dapibus posuere eget sed nulla. Nam sem odio, hendrerit vel mi ut, pharetra viverra massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc placerat ante vel eros semper bibendum. Donec ultricies vestibulum interdum.",
+        "description": "Duis rhoncus dui venenatis consequat porttitor.",
+        "price":4.99,
+        "currency": "usd",        
+        "image": "Image 97.png"
+    },
+    {
+        "id": 3,
+        "productName":"Vestibulum comm",
+        "description": "Mauris imperdiet orci dapibus, commodo libero nec, interib itmes",
+        "currency": "usd",
+        "price": 6.99,
+        "image": "Image 100.png"
+    },
+    {
+        "id": 4,
+        "productName":"Vestibulum",
+        "description": "Mauris imperdiet orci dapibus, commodo libero nec, inter",
+        "price": 8.99,
+        "currency": "usd",
+        "image": "Image 100.png"
+    },
+    {
+        "id": 5,
+        "productName": "Vestibulum",
+        "description": "Pizza cheese burst garlic bread Mauris imperdiet orci dapibus,",
+        "currency": "usd",
+        "price":4.99,
+        "image": "Image 100.png"
+    }
+]

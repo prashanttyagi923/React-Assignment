@@ -5,7 +5,6 @@ import CTA from './CTA';
 import Stepper from './Stepper';
 import CtaLink from './CtaLink';
 import CardViewProduct from './CardViewProduct';
-import PizzaImage from './assets/Image 96.png'
 function App() {
   var text= "This item is a big item";
   return (
@@ -18,7 +17,7 @@ function App() {
         <CTA text="Click Me not " />
         <Stepper />
         <CtaLink link="#" text="Link Me" />
-        <CardViewProduct imageSrc={PizzaImage} headerText="My Header" paragraphText={text}
+        {/* <CardViewProduct imageSrc={PizzaImage} headerText="My Header" paragraphText={text} */}
         linkText="Check it"
         />
         <a
