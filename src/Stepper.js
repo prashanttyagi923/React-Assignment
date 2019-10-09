@@ -34,9 +34,7 @@ const stepper = () => {return(
 )}
 
  return(
-    //{() => {
         statement()
-    //}}
  )
 
 }
